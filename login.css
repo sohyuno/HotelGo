@@ -13,6 +13,8 @@ body{
 }
 .container{
     max-width: 680px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container > h1 {
@@ -24,22 +26,45 @@ body{
 .form{
     margin-left: 50px;
     max-width: 680px;
-    display: flex;
-    flex-direction: column;
+
    
 }
 .form > .login_input{
     Width: 90%;
-    height: 30px;
+    height: 45px;
     margin: 10px ;
     border: none;
+    border-radius: 14px;
+    background-color: #e2e2e2;
     
 }
 .login_btn{
-    background-color: #f95965;
+    background-color: white;
     width: 90%;
-    height: 30px;
+    height: 45px;
     margin: 10px;
-    border: none;
-    color: white;
+    border: 2px  #f95965 solid;
+    border-radius: 14px;
+    color:  #f95965;
+    font-family: 'jalnan';
+    font-size: 20px;
+    padding: ;
+    
+}
+input::placeholder{
+    font-family: 'jalnan';
+    font-weight: 100;
+    color: #808080;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.a_tag{
+    margin-left: auto;
+    margin-right: 54px;
+    margin-top: 10px;
+    color: #808080;
+}
+.a_tag > a{
+    text-decoration: none;
+    color: 	#808080;
 }
