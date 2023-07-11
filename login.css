@@ -1,0 +1,45 @@
+/* 예쁜 색상코드 #f95965 , #e85977, #3c8677, 
+#50aeae */
+
+@font-face{
+    font-family: 'jalnan';
+    src:url(./Jalnan.woff) format('woff');
+}
+body{
+    font-family: 'jalnan';
+     margin: 0;
+     padding: 0;
+     
+}
+.container{
+    max-width: 680px;
+}
+
+.container > h1 {
+    
+    color: #f95965;
+    text-align: center;
+
+}
+.form{
+    margin-left: 50px;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.form > .login_input{
+    Width: 90%;
+    height: 30px;
+    margin: 10px ;
+    border: none;
+    
+}
+.login_btn{
+    background-color: #f95965;
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    border: none;
+    color: white;
+}
