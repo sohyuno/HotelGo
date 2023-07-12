@@ -10,17 +10,20 @@ body{
      margin: 0;
      padding: 0;
      
-}
-.container{
-    max-width: 680px;
-    display: flex;
-    flex-direction: column;
+    }
+    .container{
+        max-width: 680px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 3px 3px 3px 3px #808080;
+        margin: 100px ;
 }
 
 .container > h1 {
     
-    color: #f95965;
+    color: #e85977;
     text-align: center;
+    margin: 40px;
 
 }
 .form{
@@ -39,17 +42,23 @@ body{
     
 }
 .login_btn{
-    background-color: white;
+    background-color:  #e85977;
     width: 90%;
-    height: 45px;
+    height:50px;
     margin: 10px;
-    border: 2px  #f95965 solid;
     border-radius: 14px;
-    color:  #f95965;
+    border: none;
+    color:  white;
     font-family: 'jalnan';
     font-size: 20px;
-    padding: ;
+    padding: 10px 0;
+    cursor: pointer;
     
+}
+.login_btn:hover{
+    border: 2px  #e85977 solid;
+    background-color: white;
+    color:  #e85977;
 }
 input::placeholder{
     font-family: 'jalnan';
@@ -67,4 +76,41 @@ input::placeholder{
 .a_tag > a{
     text-decoration: none;
     color: 	#808080;
+}
+.a_tag2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 40px;
+    
+    
+}
+.naver_btn{
+    background-image:url(./img/네이버\ 아이콘\ 1.png);
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+}
+.google_btn{
+    background-image:url(./img/free-icon-search-281764.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+}
+.facebook_btn{
+    background-image:url(./img/free-icon-facebook-logo-1384863.png);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+}
+p{
+    text-align: center;
+    color: #808080;
+    margin: 20px 0;
 }
