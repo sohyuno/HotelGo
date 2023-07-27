@@ -1,0 +1,316 @@
+/* 모든 페이지에서 공통으로 사용하는 디자인
+/* 기본글씨 색상 #e3e4e6 보조글씨색상 #e3e4e68c 강조색상 #bc3cd8 */
+/* 글씨 크기 : 제목(h1)-56px 부제목(h2)-40px 부부제목(h3)-32px h4-24px h5-16px body-18px  */
+/* 버튼 16px */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100;500&display=swap');
+  @font-face{
+   font-family: 'jalnan';
+   src:url(./font/Jalnan.woff) format('woff');}
+  /* #logo{
+    font-family: 'Foldit', cursive;
+
+  } */
+  .secondary{
+    color: #c8c8c8;
+  }
+  .primary{
+    color: aliceblue
+  }
+  .hotelgo{
+   color:#e85977;
+  }
+
+
+h1{
+   font-size: 56px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 24px;
+}
+h5, button{
+    font-size: 16px;
+}
+.em{
+    font-weight: bold;
+}
+
+ *{
+    margin: 0;
+    padding: 0;
+    color: #1C1C1C;
+    
+   }
+   body{
+    font-family: 'jalnan';
+    background-color: white
+
+ }
+ /* 헤더헤더 */
+ header{
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-image: url(./img/pattern.jpg);
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: #c8c8c8 solid 1px;
+    
+ }
+ .left , .right{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+ }
+ .burger{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    
+    
+
+ }
+ .logo{
+    width: 250px;
+    height: 70px;
+  
+    
+    
+
+ }
+ .login-btn{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+    background-color: #c8c8c8;
+    color: #1C1C1C;
+    font-size: 18px;
+    font-family: 'jalnan';
+ }
+ .login-btn:hover{
+   background-color: #e85977;
+   transform: scale(1.04);
+ }
+ .lang{
+    width: 40px;
+    height: 40px;
+ }
+/* 사이드메뉴 */
+
+ aside{
+    height:100vh;
+    position: fixed;
+    left:0;
+    top: 90px;
+    
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: #1c1c1c;
+    height: calc(100vh - 90px);
+    overflow-y: hidden;
+    /* transform: translateX(-200px); */
+    transition-duration: 0.3s;
+   
+    align-items: center;
+    background-image: url(./img/pattern.jpg);
+    
+    
+   }
+   .first-side{
+      width: 80px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      row-gap: 35px;
+      
+   }
+
+   .login-icon{
+      margin-top: 50px;
+   }
+   .hotel-icon, .login-icon {
+      width: 30px;
+      height: 30px;
+   }
+   .event-icon{
+      width: 40px;
+      height: 40px;
+   }
+   .on-side{
+      width: 200px;
+      transform: translateX(-100px);
+      display: flex;
+      flex-direction: column;
+      row-gap: 50px;
+      border-right: #c8c8c8 solid 1px;
+      
+   }
+   
+   .on-side > a {
+      text-decoration: none;
+      color: #c8c8c8;
+      font-size: 20px;
+      /* display: flex;
+      flex-direction: column;
+      row-gap: 100px; */
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+ }
+ .on-side>a:hover{
+   color: #e85977;
+ }
+ .a1{
+    margin-top: 50px;
+    /* overflow-x: ; */
+ }
+ .on{
+   transform: translate(30px);
+ }
+ .mainon{
+    transform: translateX(130px);
+    
+ }
+ 
+ 
+ /* 메인 */
+ main{
+    height: 100vh;
+    padding-left: 100px; 
+    transition: 0.3s ease;
+
+}
+/* 상단content */
+.date[type='date']::before{
+   content: attr(data-placeholder);
+   width: 100%;
+   text-align: center;
+   color: gray;
+   font-size: 18px;
+   font-family: 'jalnan';
+ }
+ .first-content{
+    background-color: #1C1C1C;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+
+ }
+ .search{
+   display: flex;
+   flex-grow: 1 ;
+ }
+ .hov{
+   cursor: pointer;
+ }
+ .sc-inp::placeholder{
+   text-align: center;
+   padding: 0 10px;
+   overflow:ellipsis;
+   font-size: 18px;
+   font-family: 'jalnan';
+}
+.sc-inp{
+   background-color: aliceblue;
+   border: none;
+   height: 50px;
+}
+.sc_btn{
+   background-image: url(./icon/돋보기.png);
+   width: 50px;
+   background-position: center;
+   background-size: cover;
+   border: none;
+   background-color: #e85977;
+   border-radius: 8px;
+   margin-left: 20px;
+   cursor: pointer;
+}
+.sc_btn:hover{
+   transform: scale(1.06);
+}
+/* 가짜수상 */
+
+.prime{
+   border: 1px solid silver;
+   padding: 20px;
+   display: flex;
+   margin: 100px 50px;
+   border-radius: 16px;
+   background-color: #e85977;
+
+}
+.prime > img {
+   width: 80px;
+   height: 80px;
+}
+.thankyou{
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+}
+
+/* 사랑받는 여행지 */
+.place{
+   padding: 20px;
+   margin: 100px 50px;
+}
+.bestplace{
+   margin-top: 30px;
+   display: flex;
+   column-gap: 30px;
+   justify-content: space-around;
+}
+.best{
+   width: 170px;
+   height: 170px;
+   border-radius: 50%;
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+   cursor: pointer;
+}
+.best:hover{
+   transform: scale(1.06);
+
+}
+.jeju{
+   background-image: url(https://cdn.pixabay.com/photo/2017/03/07/12/33/mountain-trail-2123866_1280.jpg);
+}
+.Busan{
+   background-image: url(https://cdn.pixabay.com/photo/2023/06/28/10/21/busan-8094067_640.jpg);
+}
+.Gangwon{
+   background-image: url(https://cdn.pixabay.com/photo/2015/06/09/15/04/gangwon-do-803620_1280.jpg);
+}
+.Gyeongsangbuk{
+   background-image: url(https://cdn.pixabay.com/photo/2016/08/26/09/25/republic-of-korea-1621644_1280.jpg);
+}
+.Gwangju{
+   background-image: url(https://cdn.pixabay.com/photo/2023/03/06/03/55/republic-of-korea-7832562_1280.jpg);
+
+}
+.best > p{
+  text-align: center;
+  transform: translateY(80px);
+  color: white;
+  text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+
+
+}
+

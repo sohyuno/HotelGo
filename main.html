@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelGO</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div class="left">
+            <img class="burger" onclick="side()" src="./icon/burger.png" alt="">
+        </div>
+        <img class="logo" src="./img/hotelgologo.jpg" >
+        <div class="right">
+            <button class="button login-btn">로그인</button>
+            <img class="lang" src="./icon/free-icon-united-states-197484.png" alt="언어선택">
+        </div>
+        <!-- 사이드메뉴 -->
+        <aside class="first-side">
+         <img class="login-icon icon" src="./icon/loginicon.png" alt="로그인 아이콘">
+         <img class="hotel-icon icon" src="./icon/hotelicon.png" alt="호텔 아이콘">
+         <img class="event-icon icon" src="./icon/eventicon.png" alt="이벤트 아이콘">
+    
+        </aside>
+        <aside class="on-side ">
+         <a class="a1" href="#">로그인</a>
+         <a href="#">호텔</a>
+         <a href="#">이벤트</a>
+    
+        </aside>
+    </header>
+<main>
+    <!-- 첫번째 내용 -->
+ <div class="first-content">
+    <h1 class="secondary">호텔 <span class="primary">비교</span>하고 <span class="primary">예약</span>하고?<br>
+       <span class="hotelgo"> HotelGo!</span>
+    </h1>
+    <div class="search">
+        <input class="sc-inp " type="text" placeholder="도시,호텔,공항, 주소 또는 랜드마크">
+        <input class="date sc-inp hov" type="date" data-placeholder="체크인">
+        <input class="date sc-inp hov" type="date"  data-placeholder="체크아웃">
+        <input class="sc-inp hov" type="text" placeholder="객실1개, 투숙객 1개">
+        <button class="sc_btn"></button>
+    </div>
+ </div>
+<!-- 수상받은적 없지만 받은척 -->
+<div class="prime">
+    <img src="./icon/상.png" alt="상장아이콘">
+    <div class="thankyou">
+
+        <h3>2023 우리 팀끼리 뽑은 숙박 사이트 '1위'</h3>
+        <p>호텔고가 2023 브랜드 고객충성도 대상을 수상하였습니다. 앞으로 이용해주실 고객 여러분의 관심과 사랑에 미리 진심으로 감사드리며, 더 큰 신뢰와 서비스로 보답하는 호텔고가 되겠습니다.</p>
+    </div>
+</div>
+<!-- 인근숙소 -->
+<!-- <div class="second-content">
+    <h3>인근숙소</h3>
+    <img src="" alt="">
+
+</div> -->
+<!-- 사랑받는 여행지 -->
+<div class="place">
+    <h4>지금 사랑받는 여행지</h4>
+    <div class="bestplace">
+       <div class="jeju best"><p>제주도</p></div>          
+       <div class="Busan best"><p>부산</p></div>          
+       <div class="Gangwon best"><p>강원도</p></div>          
+       <div class="Gyeongsangbuk best"><p>경상북도</p></div>          
+       <div class="Gwangju best"><p>광주광역시</p></div>          
+    
+    
+    </div>
+</div>
+<!-- 이벤트 -->
+<div class="event-wrap">
+    <h4>이벤트</h4>
+
+</div>
+</main>
+<script src="./js/main.js"></script>
+</body>
+</html>
