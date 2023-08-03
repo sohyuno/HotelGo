@@ -5,9 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100;500&display=swap');
-  @font-face{
+  /* @font-face{
    font-family: 'jalnan';
-   src:url(./font/Jalnan.woff) format('woff');}
+   src:url(./font/Jalnan.woff) format('woff');} */
   /* #logo{
     font-family: 'Foldit', cursive;
 
@@ -20,6 +20,7 @@
   }
   .hotelgo{
    color:#e85977;
+   font-weight: bold;
   }
 
 
@@ -49,7 +50,9 @@ h5, button{
     
    }
    body{
-    font-family: 'jalnan';
+    font-family: 'IBM Plex Sans KR', sans-serif;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Noto Sans KR', sans-serif;
     background-color: white
 
  }
@@ -74,21 +77,15 @@ h5, button{
     align-items: center;
     column-gap: 30px;
  }
- .burger{
+ .burger, .basket{
     width: 40px;
     height: 40px;
     cursor: pointer;
-    
-    
 
  }
  .logo{
     width: 250px;
     height: 70px;
-  
-    
-    
-
  }
  .login-btn{
     width: 100px;
@@ -99,15 +96,18 @@ h5, button{
     background-color: #c8c8c8;
     color: #1C1C1C;
     font-size: 18px;
-    font-family: 'jalnan';
+    /* font-family: 'jalnan'; */
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
  }
  .login-btn:hover{
    background-color: #e85977;
    transform: scale(1.04);
  }
  .lang{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
  }
 /* 사이드메뉴 */
 
@@ -145,7 +145,7 @@ h5, button{
       width: 30px;
       height: 30px;
    }
-   .event-icon{
+   .event-icon, .QA{
       width: 40px;
       height: 40px;
    }
@@ -154,7 +154,7 @@ h5, button{
       transform: translateX(-100px);
       display: flex;
       flex-direction: column;
-      row-gap: 50px;
+      row-gap: 40px;
       border-right: #c8c8c8 solid 1px;
       
    }
@@ -174,7 +174,7 @@ h5, button{
    color: #e85977;
  }
  .a1{
-    margin-top: 50px;
+    margin-top: 47px;
     /* overflow-x: ; */
  }
  .on{
@@ -200,7 +200,9 @@ h5, button{
    text-align: center;
    color: gray;
    font-size: 18px;
-   font-family: 'jalnan';
+   font-family: 'IBM Plex Sans KR', sans-serif;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Noto Sans KR', sans-serif;
  }
  .first-content{
     background-color: #1C1C1C;
@@ -220,15 +222,20 @@ h5, button{
  }
  .sc-inp::placeholder{
    text-align: center;
-   padding: 0 10px;
+   /* padding: 0 10px; */
    overflow:ellipsis;
    font-size: 18px;
-   font-family: 'jalnan';
+   font-family: 'IBM Plex Sans KR', sans-serif;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Noto Sans KR', sans-serif;
 }
 .sc-inp{
    background-color: aliceblue;
    border: none;
    height: 50px;
+   outline: none;
+   padding: 0 15px;
+   font-size: 18px;
 }
 .sc_btn{
    background-image: url(./icon/돋보기.png);
@@ -252,7 +259,7 @@ h5, button{
    display: flex;
    margin: 100px 50px;
    border-radius: 16px;
-   background-color: #e85977;
+   background-color:aliceblue;
 
 }
 .prime > img {

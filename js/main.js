@@ -1,4 +1,4 @@
-const side = ()=>{
+let side = ()=>{
 let onSide = document.querySelector('.on-side');
 let main = document.querySelector('main');
 

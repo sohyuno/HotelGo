@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문의사항</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="./board.css">
+
+</head>
+<body>    <!-- 헤더 -->
+    <header>
+        <div class="left">
+            <img class="burger" onclick="side()" src="../icon/burger.png" alt="">
+        </div>
+        <a href="../main.html">
+            <img class="logo" src="../img/hotelgologo.jpg" >
+
+        </a>
+        <div class="right">
+            <button class="button login-btn">로그인</button>
+            <img class="lang" src="../icon/free-icon-united-states-197484.png" alt="언어선택">
+        </div>
+        <!-- 사이드메뉴 -->
+        <aside class="first-side">
+         <img class="login-icon icon" src="../icon/loginicon.png" alt="로그인 아이콘">
+         <img class="hotel-icon icon" src="../icon/hotelicon.png" alt="호텔 아이콘">
+         <img class="event-icon icon" src="../icon/eventicon.png" alt="이벤트 아이콘">
+         <img class="QA" src="../icon/Q&A.png" alt="Q&A아이콘">
+    
+        </aside>
+        <aside class="on-side ">
+         <a class="a1" href="#">로그인</a>
+         <a href="#">호텔</a>
+         <a href="#">이벤트</a>
+         <a href="./board/board.html">Q & A</a>
+    
+        </aside>
+    </header>
+    <!-- 게시판 -->
+    <main >
+
+        
+        <div class="board">
+            <h3 class="moon2">Q & A</h3>
+            <form class="search-wrap" action="">
+                <label class="blind" for="search">
+                    <input id="search" type="search" placeholder="검색어를 입력해주세요.">
+                    <button class="sear-btn">검색</button>
+                </label>
+            </form>
+            <div id="table">
+                <div class="table-row">
+                    <div  class="cell cell10 tit">번호</div>
+                    <div class="cell cell55 tit">제목</div>
+                    <div class="cell cell15 tit">작성자</div>
+                    <div class="cell cell20 tit">등록일 </div>
+                </div>
+            </div>
+            <div id="btnWrap">
+
+            </div>
+        </main>
+        <script src="../js/board.js"></script>
+        <script src="../js/main.js"></script>
+    </body>
+    </html>
