@@ -62,7 +62,7 @@ font-family: 'Noto Sans KR', sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    background-image: url(./img/pattern.jpg);
+    background-image: url(../01_images/pattern.jpg);
     left: 0;
     right: 0;
     box-sizing: border-box;
@@ -116,7 +116,6 @@ font-family: 'Noto Sans KR', sans-serif;
     position: fixed;
     left:0;
     top: 90px;
-    
     /* background-color: rgba(0, 0, 0, 0.5); */
     background-color: #1c1c1c;
     height: calc(100vh - 90px);
@@ -178,10 +177,11 @@ font-family: 'Noto Sans KR', sans-serif;
     /* overflow-x: ; */
  }
  .on{
-   transform: translate(30px);
+   /* transform: translate(30px); */
+   padding-left: 132px;
  }
  .mainon{
-    transform: translateX(130px);
+    padding-left: 232px;
     
  }
  
@@ -238,7 +238,7 @@ font-family: 'Noto Sans KR', sans-serif;
    font-size: 18px;
 }
 .sc_btn{
-   background-image: url(./icon/돋보기.png);
+   background-image: url(../05_icon/돋보기.png);
    width: 50px;
    background-position: center;
    background-size: cover;
@@ -251,6 +251,24 @@ font-family: 'Noto Sans KR', sans-serif;
 .sc_btn:hover{
    transform: scale(1.06);
 }
+/* 호텔이미지 */
+#hotelimg{
+   display: flex;
+   padding: 30px;
+   column-gap: 30px;
+
+}
+.hotel-img{
+   width: 500px;
+   height: 350px;
+   border-radius: 8px;
+   box-shadow: 2px 2px 3px 1px gray;
+}
+
+
+
+
+
 /* 가짜수상 */
 
 .prime{
@@ -320,4 +338,19 @@ font-family: 'Noto Sans KR', sans-serif;
 
 
 }
-
+.event-wrap{
+   padding: 20px;
+   margin: 100px 50px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 15px;
+   
+}
+#event{
+   display: flex;
+   column-gap: 70px;
+}
+.event-img{
+   width: 400px;
+   height: 350px;
+}

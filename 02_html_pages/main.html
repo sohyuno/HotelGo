@@ -14,27 +14,27 @@
     <!-- 헤더 -->
     <header>
         <div class="left">
-            <img class="burger" onclick="side()" src="./icon/burger.png" alt="">
+            <img class="burger" onclick="side()" src="../05_icon/burger.png" alt="">
         </div>
-        <img class="logo" src="./img/hotelgologo.jpg" >
+        <img class="logo" src="../01_images/hotelgologo.jpg" >
         <div class="right">
-            <button class="button login-btn">로그인</button>
-            <a href="#"><img class="basket" src="./icon/장바구니.png" alt="장바구니아이콘"></a>
-            <img class="lang" src="./icon/free-icon-united-states-197484.png" alt="언어선택">
+            <button onclick="login()" class="button login-btn">로그인</button>
+            <a href="#"><img class="basket" src="../05_icon/장바구니.png" alt="장바구니아이콘"></a>
+            <img class="lang" src="../05_icon/free-icon-united-states-197484.png" alt="언어선택">
         </div>
         <!-- 사이드메뉴 -->
         <aside class="first-side">
-         <img class="login-icon icon" src="./icon/loginicon.png" alt="로그인 아이콘">
-         <img class="hotel-icon icon" src="./icon/hotelicon.png" alt="호텔 아이콘">
-         <img class="event-icon icon" src="./icon/eventicon.png" alt="이벤트 아이콘">
-         <img class="QA" src="./icon/Q&A.png" alt="Q&A아이콘">
+         <img class="login-icon icon" src="../05_icon/loginicon.png" alt="로그인 아이콘">
+         <img class="hotel-icon icon" src="../05_icon/hotelicon.png" alt="호텔 아이콘">
+         <img class="event-icon icon" src="../05_icon/eventicon.png" alt="이벤트 아이콘">
+         <img class="QA" src="../05_icon/Q&A.png" alt="Q&A아이콘">
     
         </aside>
         <aside class="on-side ">
-         <a class="a1" href="#">로그인</a>
+         <a class="a1" onclick="login()" href="./login.html">로그인</a>
          <a href="#">호텔</a>
          <a href="#">이벤트</a>
-         <a href="./board/board.html">Q & A</a>
+         <a href="../02_html_pages/board.html">Q & A</a>
     
         </aside>
     </header>
@@ -52,9 +52,17 @@
         <button class="sc_btn"></button>
     </div>
  </div>
+ <!-- 호텔 사진들 -->
+ <div id="hotelimg">
+    <img class="hotel-img" src="https://cdn.pixabay.com/photo/2017/05/31/10/23/manor-house-2359884_1280.jpg" alt="호텔수영장사진">
+    <img class="hotel-img" src="https://cdn.pixabay.com/photo/2013/04/18/14/39/ship-105596_1280.jpg" alt="호텔사진">
+    <!-- <img class="hotel-img" src="https://cdn.pixabay.com/photo/2016/06/10/01/05/hotel-room-1447201_1280.jpg" alt="호텔침대사진"> -->
+    <img class="hotel-img" src="https://cdn.pixabay.com/photo/2016/01/10/19/49/singapore-1132358_1280.jpg" alt="싱가포르호텔밤사진">
+
+ </div>
 <!-- 수상받은적 없지만 받은척 -->
 <div class="prime">
-    <img src="./icon/상.png" alt="상장아이콘">
+    <img src="../05_icon/상.png" alt="상장아이콘">
     <div class="thankyou">
 
         <h3>2023 우리 팀끼리 뽑은 숙박 사이트 '1위'</h3>
@@ -83,9 +91,14 @@
 <!-- 이벤트 -->
 <div class="event-wrap">
     <h4>이벤트</h4>
+    <div id="event">
+        <img class="event-img "src="https://cdn.pixabay.com/photo/2018/02/12/16/40/birthday-3148707_1280.png" alt="">
+        <img class="event-img "src="https://cdn.pixabay.com/photo/2016/09/16/19/13/balloon-1674880_1280.png" alt="">
+        <img class="event-img "src="https://cdn.pixabay.com/photo/2016/09/16/19/13/birthday-cake-1674879_1280.png" alt="생일케이크그림">
+    </div>
 
 </div>
 </main>
-<script src="./js/main.js"></script>
+<script src="../04_js/main.js"></script>
 </body>
 </html>

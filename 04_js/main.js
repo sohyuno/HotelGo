@@ -8,3 +8,7 @@ main.classList.toggle('mainon');
 
 
 }
+
+let login = () =>{
+    window.location = './login.html'
+}
