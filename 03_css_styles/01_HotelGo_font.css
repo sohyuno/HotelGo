@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: lighter;
+}
+
+body{
+    font-size: 18px;
+    
+    color: #595959 ;
+}
+
+h1{
+    font-size: 56px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 24px;
+}
+h5, button{
+    font-size: 16px;
+}
+
+.em{
+    font-weight: bold;
+}
+.label{
+    font-size : 14px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color : #e3e4e6
+}

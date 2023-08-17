@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelGo 로그인</title>
+    <link rel="stylesheet" href="../03_css_styles/01_HotelGo_font.css">
+    <link rel="stylesheet" href="../03_css_styles/02_log_in.css">
+    <!-- <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'> -->
+</head>
+<body>
+    <script src="../04_js/login.js"></script>
+    <main>
+        <div class="wrapper">
+            <form id="login-form" name="login-form">
+               <div class="lang-wrap">
+                    <select class="lang-select">
+                        <option>한국어</option>
+                        <option>English</option>
+                    </select>
+               </div>
+               <span>
+                <div class="bo">
+                    <div class="logo-wrap">
+                        <span>
+                            <img src="../01_images/logo2/KakaoTalk_20230727_154413817.jpg" alt="로고" width="300px" height="200px">
+                        </span>
+                    </div>
+               </span>
+                <div class="form-header">
+                    <h3>로그인</h3>
+                </div>
+
+                <div class="border-box">
+                    <div class="input-ID">    
+                        <img class="icon-size" src="../01_images/icons/free-icon-font-user-3917688.svg" alt="유저 아이콘">                      
+                        <input id="ID" name="ID" type="text" placeholder="아이디">
+                    </div>
+                    <div class="input-PW">
+                        <img class="icon-size" src="../01_images/icons/lock.svg" alt="비밀번호 아이콘"> 
+                        <input id="PW" name="PW" type="password" placeholder="비밀번호">
+                    </div>
+                </div>
+                <div class="button-box">
+                    <button class="loginBT">확인</button>
+                </div>
+            </div> 
+            </form>
+        </div>
+    </main>
+</body>
+</html>
