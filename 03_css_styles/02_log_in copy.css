@@ -1,0 +1,115 @@
+
+ .wrapper{
+    min-height: 100vh;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+    url(../01_images/hotelgoBackground.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+   
+} 
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+form .lang-wrap{
+    width: 789px;
+}
+form > .lang-wrap{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.bo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border : 1px solid white;
+    border-radius: 16px;
+    background-image: url(../01_images/pattern.jpg);
+    padding: 50px;
+    background-color: rgba(28,28,28,0.5);
+    row-gap: 15px;
+    height: 500px;
+}
+.border-box{
+    border-radius: 16px;
+    padding : 10px ;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#ID{
+    width: 80%;
+	height: 35px;
+    align-items: center;
+    margin-bottom: 15px;  
+    border-radius: 12px;  
+    padding-left: 5px;
+    outline: none;
+}
+#PW{
+    width: 80%;
+	height: 35px;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 12px;    
+    padding-left: 5px;
+    outline: none;
+}
+.icon-size{
+    height: 20px;
+    width: 20px;
+    padding-top: 15px;
+    border: solid 1px var(--border-gray-color);
+}
+.loginBT{
+    height: 30px;
+    border-radius: 12px;
+    width: 70px;
+    /* background-color: rgba(28,28,28); */
+    background-color: black;
+    color: silver;
+    margin-bottom: 20px;
+}
+span > img{
+    height: 120px;
+}
+.snsbt > img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.snsbt{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+   column-gap: 10px;
+    
+}
+.snsbtn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 90%;
+}
+.login-btn:hover{
+background-color: #1c1c1c;
+
+}
+.login-btn{
+    cursor: pointer;
+}

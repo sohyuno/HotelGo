@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelGo 로그인</title>
+    <link rel="stylesheet" href="../03_css_styles/01_HotelGo_font.css">
+    <link rel="stylesheet" href="../03_css_styles/02_log_in copy.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100&display=swap" rel="stylesheet">
+    
+    <!-- <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'> -->
+</head>
+<body>
+    <script src="../04_js/login.js"></script>
+    <main>
+        <div class="wrapper">
+            <form id="login-form" name="login-form">
+               <div class="lang-wrap">
+                    <select class="lang-select">
+                        <option>한국어</option>
+                        <option>English</option>
+                    </select>
+               </div>
+               <span>
+                <div class="bo">
+                    <div class="logo-wrap">
+                        <span>
+                            <img src="../01_images/logo1-1 복사본.jpg" alt="로고" width="300px" height="200px">
+                        </span>
+                    </div>
+               </span>
+            
+
+                <div class="border-box">
+                    <div class="input-ID">    
+                        <img class="icon-size" src="../05_icon/loginicon.png" alt="유저 아이콘">                      
+                        <input id="ID" name="ID" type="text" placeholder="아이디">
+                    </div>
+                    <div class="input-PW">
+                        <img class="icon-size" src="../05_icon/free-icon-password-7817000 (1).png" alt="비밀번호 아이콘"> 
+                        <input id="PW" name="PW" type="password" placeholder="비밀번호">
+                    </div>
+                </div>
+                <div class="button-box">
+                    <button class="loginBT login-btn">확인</button>
+                </div>
+                <div class="snsbtn">
+                    <button class="snsbt login-btn">
+                        <img src="../05_icon/free-icon-search-281764.png" alt="구글아이콘">
+                        구글로 로그인하기
+                    </button>
+                    <button class="snsbt login-btn">
+                        <img src="../05_icon/네이버 아이콘 1.png" alt="">
+                        네이버로 로그인하기
+                    </button>
+                    <button class="snsbt login-btn">
+                        <img src="../05_icon/free-icon-facebook-logo-1384863.png" alt="">
+                        페이스북으로 로그인하기
+                    </button>
+                </div>
+            </div> 
+            </form>
+        </div>
+    </main>
+</body>
+</html>

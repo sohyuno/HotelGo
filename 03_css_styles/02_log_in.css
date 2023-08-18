@@ -67,7 +67,8 @@ form > .lang-wrap{
 .loginBT{
     height: 30px;
     border-radius: 16px;
-    width: 60px;
+    width: 65px;
     background-color: rgba(28,28,28);
     color: silver;
+    margin: 5px 0;
 }
